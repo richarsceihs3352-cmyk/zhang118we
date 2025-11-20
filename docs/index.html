@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- 添加 viewport-fit=cover 适配刘海屏，user-scalable=no 禁止缩放 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="警务保障车辆管理">
+    
+    <title>警务保障车辆管理</title>
+    <link rel="manifest" href="data:application/json;base64,ewogICJzaG9ydF9uYW1lIjogIuitpuWKoei9pui+hiIsCiAgIm5hbWUiOiAi6K2m5Yqh5L+d6Zqc6L2m6L6G566h55CGIiwKICAiZGVzY3JpcHRpb24iOiAi5pys5Zyw5LyY5YWI55qE6K2m5Yqh5L+d6Zqc6L2m6L6G566h55CG57O757uf44CC566h55CG6L2m6Zif77yM6Lef6Liq57u05L+u5oiQ5pys77yM5pSv5oyB56a757q/6L+Q6KGM44CCIiwKICAiaWQiOiAiLi8iLAogICJzY29wZSI6ICIuLyIsCiAgInN0YXJ0X3VybCI6ICIuLyIsCiAgImRpc3BsYXkiOiAic3RhbmRhbG9uZSIsCiAgImJhY2tncm91bmRfY29sb3IiOiAiI2Y4ZmFmYyIsCiAgInRoZW1lX2NvbG9yIjogIiNmZmZmZmYiLAogICJvcmllbnRhdGlvbiI6ICJwb3J0cmFpdCIsCiAgImljb25zIjogWwogICAgewogICAgICAic3JjIjogImh0dHBzOi8vY2RuLWljb25zLXBuZy5mbGF0aWNvbi5jb20vNTEyLzIzODIvMjM4MjUzMy5wbmciLAogICAgICAidHlwZSI6ICJpbWFnZS9wbmciLAogICAgICAic2l6ZXMiOiAiMTkyeDE5MiIsCiAgICAgICJwdXJwb3NlIjogImFueSBtYXNrYWJsZSIKICAgIH0sCiAgICB7CiAgICAgICJzcmMiOiAiaHR0cHM6Ly9jZG4taWNvbnMtcG5nLmZsYXRpY29uLmNvbS81MTIvMjM4Mi8yMzgyNTMzLnBuZyIsCiAgICAgICJ0eXBlIjogImltYWdlL3BuZyIsCiAgICAgICJzaXplcyI6ICI1MTJ4NTEyIiwKICAgICAgInB1cnBvc2UiOiAiYW55IG1hc2thYmxlIgogICAgfQogIF0sCiAgImNhdGVnb3JpZXMiOiBbInByb2R1Y3Rpdml0eSIsICJ1dGlsaXRpZXMiLCAiYnVzaW5lc3MiXQp9" />
+    <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/2382/2382533.png" />
+
+    <!-- Tailwind CSS via CDN for simplicity (Local build keeps this for styling without complex postcss setup) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      /* Hide scrollbar for Chrome, Safari and Opera */
+      .no-scrollbar::-webkit-scrollbar {
+          display: none;
+      }
+      /* Hide scrollbar for IE, Edge and Firefox */
+      .no-scrollbar {
+          -ms-overflow-style: none;  /* IE and Edge */
+          scrollbar-width: none;  /* Firefox */
+      }
+      body {
+        background-color: #f8fafc;
+        /* 禁用点击高亮 (原生感) */
+        -webkit-tap-highlight-color: transparent;
+        /* 防止下拉刷新导致网页像浏览器一样被拉动 */
+        overscroll-behavior-y: none;
+        /* 禁用长按选择文本 (像原生 App 一样) */
+        user-select: none;
+        -webkit-user-select: none;
+        /* 禁用长按呼出菜单 (复制/粘贴等) */
+        -webkit-touch-callout: none;
+      }
+      /* 允许输入框内的文本被选择和编辑，否则无法输入 */
+      input, textarea {
+        user-select: text !important;
+        -webkit-user-select: text !important;
+        -webkit-touch-callout: default !important;
+      }
+    </style>
+
+<link rel="stylesheet" href="/index.css">
+<script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.30.0",
+    "recharts": "https://aistudiocdn.com/recharts@^3.4.1",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.554.0",
+    "react-markdown": "https://aistudiocdn.com/react-markdown@^10.1.0",
+    "xlsx": "https://aistudiocdn.com/xlsx@^0.18.5",
+    "vite": "https://aistudiocdn.com/vite@^7.2.2",
+    "@vitejs/plugin-react": "https://aistudiocdn.com/@vitejs/plugin-react@^5.1.1"
+  }
+}
+</script>
+  <script type="module" crossorigin src="./assets/index-fce50af5.js"></script>
+</head>
+  <body>
+    <div id="root"></div>
+    <!-- Vite Entry Point -->
+    
+  
+</body>
+</html>
