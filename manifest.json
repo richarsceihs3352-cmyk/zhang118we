@@ -1,0 +1,27 @@
+{
+  "short_name": "警务车辆",
+  "name": "警务保障车辆管理",
+  "description": "本地优先的警务保障车辆管理系统。管理车队，跟踪维修成本，支持离线运行。",
+  "id": "./",
+  "scope": "./",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f8fafc",
+  "theme_color": "#ffffff",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/2382/2382533.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/2382/2382533.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["productivity", "utilities", "business"]
+}

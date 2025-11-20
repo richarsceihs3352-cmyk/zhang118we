@@ -1,0 +1,7 @@
+{
+  "name": "Copy of Copy of 警务保障车辆管理",
+  "description": "本地优先的警务保障车辆管理系统。管理车队，跟踪维修成本，完全离线运行。",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
